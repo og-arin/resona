@@ -1,6 +1,6 @@
-# SplitMySong
+# Resona
 
-Local AI stem splitter. demucs does the heavy lifting, FastAPI wraps it, React plays it back.
+Local stem splitter. demucs does the heavy lifting, FastAPI wraps it, React plays it back.
 
 ## Run backend
 ```bash
