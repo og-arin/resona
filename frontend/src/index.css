@@ -119,6 +119,16 @@ body {
   width: 78px;
 }
 
+.footer-link {
+  color: #555;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer-link:hover {
+  color: #ccc;
+}
+
 .stem-card:hover {
   transform: translateY(-2px);
   border-color: var(--glow);

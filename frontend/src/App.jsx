@@ -243,6 +243,18 @@ export default function App() {
           onDelete={deleteHistoryEntry}
           activeId={activeId}
         />
+
+        <footer style={{ marginTop: 56, display: "flex", gap: 16, fontSize: 12, color: "#555" }}>
+          <a href="https://github.com/og-arin" target="_blank" rel="noreferrer" className="footer-link">
+            github/og-arin
+          </a>
+          <a href="https://instagram.com/og__arin" target="_blank" rel="noreferrer" className="footer-link">
+            insta/og__arin
+          </a>
+          <a href="https://portfolio-amber-eta-31.vercel.app/" target="_blank" rel="noreferrer" className="footer-link">
+            portfolio
+          </a>
+        </footer>
       </div>
     </div>
   );
